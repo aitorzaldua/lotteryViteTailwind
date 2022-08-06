@@ -1,9 +1,13 @@
 import React from "react";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1 class="text-3xl font-bold underline bg-gray-100">Hello world!</h1>
+    <div className="min-h-screen">
+      <div className="gradient-bg-welcome">
+        <Home />
+      </div>
     </div>
   );
 };
